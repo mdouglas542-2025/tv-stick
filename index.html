@@ -30,6 +30,14 @@
             color: #e63946;
         }
 
+        h3 {
+            margin-top: 25px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
         .produto-img {
             width: 100%;
             max-width: 400px;
@@ -48,6 +56,7 @@
             display: block;
             border-radius: 6px;
             margin: 20px 0;
+            font-weight: bold;
         }
 
         .cta:hover {
@@ -65,16 +74,66 @@
             margin-top: 20px;
         }
 
+        .selos {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin: 25px 0;
+            flex-wrap: wrap;
+        }
+
+        .selo {
+            width: 30%;
+            min-width: 120px;
+            font-size: 14px;
+        }
+
+        .urgencia {
+            background: #ffe5e5;
+            color: #b30000;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+
+        .faq {
+            margin-top: 20px;
+        }
+
+        .faq p {
+            margin: 8px 0;
+        }
+
         footer {
             text-align: center;
             font-size: 14px;
             color: #666;
-            margin-top: 20px;
+            margin-top: 30px;
+        }
+
+        /* WhatsApp flutuante */
+        .whatsapp-fixo {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25d366;
+            color: #fff;
+            padding: 15px 18px;
+            border-radius: 50px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
         }
     </style>
 </head>
 
 <body>
+
+<a class="whatsapp-fixo" href="https://wa.me/5522981701260" target="_blank">
+    💬 WhatsApp
+</a>
 
 <div class="container">
 
@@ -83,10 +142,20 @@
 
     <img src="img/tv-stick.jpg" alt="TV Stick Smart TV Android" class="produto-img">
 
+    <div class="urgencia">
+        ⏰ Últimas unidades com envio imediato
+    </div>
+
     <p>
         Assista <strong>Netflix, YouTube, Prime Video, Globoplay</strong> e muito mais,
         mesmo em TVs antigas. Basta conectar no HDMI e pronto!
     </p>
+
+    <div class="selos">
+        <div class="selo">🚚 Frete para todo Brasil</div>
+        <div class="selo">🔒 Compra 100% segura</div>
+        <div class="selo">🛡️ Garantia garantida</div>
+    </div>
 
     <div class="highlight">
         <h3>✅ Principais Benefícios</h3>
@@ -94,7 +163,7 @@
             <li>Transforma qualquer TV com HDMI em Smart TV</li>
             <li>Conexão Wi-Fi rápida e estável</li>
             <li>Sistema Android intuitivo</li>
-            <li>Compatível com os principais aplicativos de streaming</li>
+            <li>Compatível com os principais aplicativos</li>
             <li>Instalação simples: plugou, ligou, usou</li>
             <li>Acompanha controle remoto</li>
         </ul>
@@ -108,18 +177,19 @@
         <li>Manual de uso</li>
     </ul>
 
-    <h3>🚀 Ideal para quem quer:</h3>
+    <h3>💡 Por que comprar conosco?</h3>
     <ul>
-        <li>Economizar sem trocar de TV</li>
-        <li>Mais entretenimento em casa</li>
-        <li>Uma solução prática e portátil</li>
+        <li>Produto testado antes do envio</li>
+        <li>Suporte rápido via WhatsApp</li>
+        <li>Envio com código de rastreio</li>
+        <li>Atendimento em português</li>
     </ul>
 
     <div class="highlight">
         <h3>🔥 Oferta por tempo limitado</h3>
         <p>
-            Estoque limitado. Produto com alta procura.<br>
-            Aproveite antes do aumento de preço.
+            Alta procura nos últimos dias.<br>
+            Garanta o seu antes do fim do estoque.
         </p>
     </div>
 
@@ -128,21 +198,16 @@
         💳 COMPRAR AGORA
     </a>
 
-    <!-- WHATSAPP -->
-    <a class="cta" style="background:#25d366"
-       href="https://wa.me/5522981701260" target="_blank">
-        💬 Falar no WhatsApp
-    </a>
-
-    <div class="highlight">
-        <h3>🛡️ Garantia de Satisfação</h3>
-        <p>
-            Se você não gostar do produto, garantimos a devolução conforme o Código de Defesa do Consumidor.
-        </p>
+    <div class="highlight faq">
+        <h3>❓ Perguntas Frequentes</h3>
+        <p><strong>Funciona em qualquer TV?</strong><br>Sim, desde que tenha entrada HDMI.</p>
+        <p><strong>Precisa pagar mensalidade?</strong><br>Não. Apenas as assinaturas dos apps, se desejar.</p>
+        <p><strong>Tem garantia?</strong><br>Sim, conforme o Código de Defesa do Consumidor.</p>
+        <p><strong>O envio é rápido?</strong><br>Sim, enviamos com rastreamento.</p>
     </div>
 
     <footer>
-        © 2026 – Produto enviado para todo o Brasil
+        © 2026 – Loja Online | Envio para todo o Brasil
     </footer>
 
 </div>
